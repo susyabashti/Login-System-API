@@ -1,6 +1,8 @@
  # Login System API ![](https://img.shields.io/badge/release-v0.4-brightgreen.svg)
 
 **AMXX Plugin** written by me to those who want a layer of security for their players unique id in the server.
+> [Changelog](https://github.com/susyabashti/Login-System-API/blob/master/CHANGELOG.md "Changelog")
+
 
 ## Requirements
 * Updated CS 1.6 Server.
@@ -35,8 +37,6 @@ CREATE TABLE `database_name`.`table_name` ( `authid` VARCHAR(35) NOT NULL , `pas
 
 ## Web Part Example
 http://4honor.cl2host.co.il/rps/
-
-------------
 
 
 ## Support
