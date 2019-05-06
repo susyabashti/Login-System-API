@@ -1,5 +1,4 @@
-
- # Login System API ![](https://img.shields.io/badge/release-v0.4-brightgreen.svg)
+ # Login System API ![](https://img.shields.io/badge/release-v0.4-brightgreen.svg) ![](https://img.shields.io/badge/engine-GOLDSRC-yellow.svg) ![](https://img.shields.io/badge/coder-SUSYABASHTI-lightgrey.svg)
 
 **AMXX Plugin** written by me to those who want a layer of security for their players unique id in the server.
 > [Changelog](https://github.com/susyabashti/Login-System-API/blob/master/CHANGELOG.md "Changelog")
