@@ -1,4 +1,5 @@
- # Login System API
+ # Login System API ![](https://img.shields.io/badge/release-v0.4-brightgreen.svg)
+
 **AMXX Plugin** written by me to those who want a layer of security for their players unique id in the server.
 
 ## Requirements
@@ -31,6 +32,9 @@ CREATE TABLE `database_name`.`table_name` ( `authid` VARCHAR(35) NOT NULL , `pas
 
 5. Put compiled file in "plugins" folder, and restart the server.
 6. Enjoy!
+
+## Web Part Example
+http://4honor.cl2host.co.il/rps/
 
 ------------
 
