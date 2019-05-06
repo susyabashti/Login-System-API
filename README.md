@@ -16,8 +16,11 @@
 1. Download the plugin.
 2. If you are not going to use MySQL saving method then just put the .amxx files in the "plugins" folder or compile it yourself.
 ##### Continue only  if you are using MySQL saving method
-3. Open the .sma file and edit this lines:
-
+3. Open the .sma file and uncomment this line:
+```cpp
+#define USING_SQL
+```
+4. And also edit this lines:
 ```cpp
 new const WEBSITE[ ] = "http://www.example.com/index.php";
 
@@ -28,13 +31,13 @@ new const WEBSITE[ ] = "http://www.example.com/index.php";
 #define SQL_TABLE	"tablename"
 ```
 
-4. Run this SQL command in your web:
+5. Run this SQL command in your web:
 ```sql
 CREATE TABLE `database_name`.`table_name` ( `authid` VARCHAR(35) NOT NULL , `password` VARCHAR(32) NOT NULL , `user_ip` VARCHAR(48) NOT NULL , `email` VARCHAR(64) NOT NULL, UNIQUE `authid` (`authid`)) ;
 ```
 
-5. Put compiled file in "plugins" folder, and restart the server.
-6. Enjoy!
+6. Put compiled file in "plugins" folder, and restart the server.
+7. Enjoy!
 
 ## Plugin CVars
 
