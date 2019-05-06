@@ -6,6 +6,7 @@
 
 ## Requirements
 * Updated CS 1.6 Server.
+* DPROTO / REUNION installed.
 * AMX Mod X 1.8.2 installed.
 * [FVault](https://forums.alliedmods.net/showthread.php?t=76453 "FVault").inc (for Coders).
 ##### Optional
