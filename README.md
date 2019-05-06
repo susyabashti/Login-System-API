@@ -36,9 +36,17 @@ CREATE TABLE `database_name`.`table_name` ( `authid` VARCHAR(35) NOT NULL , `pas
 5. Put compiled file in "plugins" folder, and restart the server.
 6. Enjoy!
 
+## Plugin CVars
+
+```cpp
+ls_kick_time "X" // Default: 60 Change the amount of time the player have before getting kicked.
+ls_max_attempts "X" // Default: 3 Change the max attempts to login before kicking the player.
+```
+
+
 ## Plugin API
 
-```ccp
+```cpp
 #if defined _login_api_included
   #endinput
 #endif
