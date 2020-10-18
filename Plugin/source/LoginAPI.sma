@@ -234,6 +234,9 @@ Load_Passwords( )
 
 public client_putinserver( iIndex )
 {
+	if( is_user_bot( iIndex ) )
+		return;
+
 	g_iAttempts[ iIndex ] = 0;
 	PASSWORD[ 0 ] = 0;
 	
