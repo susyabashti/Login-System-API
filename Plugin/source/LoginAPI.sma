@@ -223,6 +223,8 @@ Load_Passwords( )
 		TrieSetString( g_tPasswords, szKey, szPass );
 		TrieSetString( g_tAuto, szKey, szIp );
 		TrieSetString( g_tMails, szKey, szMail );
+		
+		SQL_NextRow( hQuery );
 	}
 	
 	SQL_FreeHandle( g_hConn );
